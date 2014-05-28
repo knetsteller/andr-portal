@@ -44,3 +44,13 @@ font-size: 4em;
 	text-align: center;
 	color: black;
 }
+
+col-lg-12 {
+	float: none;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#features {
+	margin-top: 25px;
+}
