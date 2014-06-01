@@ -40,6 +40,11 @@ font-size: 4em;
   	background-size: cover;
     } */
 	
+
+body{
+	padding-top: 80px;	
+}	
+	
 .col-lg-4 {
 	text-align: center;
 	color: black;
@@ -53,4 +58,6 @@ col-lg-12 {
 
 #features {
 	margin-top: 25px;
+	text-align: center;
 }
+

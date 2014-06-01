@@ -12,9 +12,8 @@
 	</head>
 	
 	<body>
-		<!-- Barra de navegação -->
-		<div class="container">
-			<header class="page-header">
+		<div class="container" id="main">
+			<!-- <header class="page-header">
 			  <ul class="nav nav-pills pull-right">
 				<li class="active"><a href="#">Principal</a></li>
 				<li><a href="#">Sobre</a></li>
@@ -22,17 +21,44 @@
 				<li><a href="#">Contato</a></li>
 			  </ul>
 			  <h3>UFG</h3>
-			</header>
-			
-			<div class="col-lg-8">
-				<h1>UFG Bipper</h1>
-				<p>
-					UFG Bipper é o aplicativo que vai te deixar atualizado com tudo que é notícia no ambiente acadêmico da UFG. 
-				</p>
+			</header> -->
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					<a class="navbar-brand" href="/"><img src="images/logo.png" alt="Your Logo"></a>
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Services</a>
+						</li>
+					</ul>
+					<ul>
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site" id="searchInput">
+								<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+							</input>
+						</form>
+						<ul class="nav navbar-nav pull-right">
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-user"></span>MY Account</a>
+							</li>
+						</ul>
+					</ul>
+				</div>
 			</div>
 			
-			<div class="col-lg-4">
-				<img src="images/gly.png" width="320px" height="529px">
+			<div>
+				<div class="col-lg-8">
+					<h1>UFG Bipper</h1>
+					<p>
+						UFG Bipper é o aplicativo que vai te deixar atualizado com tudo que é notícia no ambiente acadêmico da UFG. 
+					</p>
+				</div>
+				
+				<div class="col-lg-4">
+					<img src="images/gly.png" width="320px" height="529px">
+				</div>
 			</div>
 			
 			<!--Conteúdo 1-->
@@ -55,26 +81,55 @@
 			<!--Fim do conteúdo 1-->
 
 			<!--Conteúdo 2 -->
-			<section id="features">
-				<div class="container">
-					<h2>
-						O que você pode fazer
-					</h2>
-					<div class="row">
-						<div class="col-lg-4">
-							<span class="glyphicon glyphicon-cog"></span>
-							<h3>Busque</h3>
-						</div>
-						<div class="col-lg-4">
-							<span class="glyphicon glyphicon-cog"></span>
-							<h3>Classifique</h3>
-						</div>
-						<div class="col-lg-4">
-							<span class="glyphicon glyphicon-cog"></span>
-							<h3>Ordene</h3>
+			<section id="features-section">
+				<!-- <div class="container"> -->
+					<div class="row" id="featuresHeading">
+						<div class="col-12">
+							<h2>Destaques</h2>	
+							<p class="lead">
+								Confira as principais funções do UFG Bipper
+							</p>
 						</div>
 					</div>
-				</div>
+					<div class="row" id="features">
+						<div class="col-sm-4 feature">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h3 class="panel-title">
+										Busque
+									</h3>
+								</div>
+								<div class="panel-body">
+									Busque por notificações mais importantes primeiro
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 feature">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h3 class="panel-title">
+										Classifique
+									</h3>
+								</div>
+								<div class="panel-body">
+									Busque por notificações mais importantes primeiro
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 feature">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h3 class="panel-title">
+										Ordene
+									</h3>
+								</div>
+								<div class="panel-body">
+									Busque por notificações mais importantes primeiro
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- </div> -->
 			</section>
 			<!--Fim conteúdo 2-->
 		</div>
