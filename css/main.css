@@ -24,8 +24,6 @@ col-lg-12 {
 }
 
 footer {
-	/* background: #333;
-	color: #eee; */
 	font-size: 11px;
 	padding: 20px;
 }
@@ -43,6 +41,10 @@ ul.unstyled {
 }
 
 #botao-store {
+	margin-right: 20px;
+}
+
+#botao-google {
 	margin-right: 20px;
 }
 
