@@ -1,6 +1,6 @@
 ﻿body{
 	padding-top: 80px;	
-	background: url(../images/ufg_bg.jpg) no-repeat center center fixed;
+	background: url(../images/mountain_bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -38,6 +38,11 @@ ul.unstyled {
 	font-size: 70px;
 	line-height: 100px;
 	color: #BCCAEB;
+}
+
+#phone_app {
+	background-color: transparent;
+	border: none;
 }
 
 #botao-store {
